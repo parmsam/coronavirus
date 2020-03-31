@@ -13,7 +13,7 @@ time_series_19_covid_Recovered_global_path <- "https://raw.githubusercontent.com
 
 time_series_19_covid_Confirmed_usa_path <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv"
 time_series_19_covid_Deaths_usa_path <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv"
-time_series_19_covid_Recovered_usa_path <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_US.csv"
+#time_series_19_covid_Recovered_usa_path <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_US.csv"
 
 #latest daily report data paths
 yesterday <- format(today()-1, "%m-%d-%Y")
@@ -27,7 +27,7 @@ time_series_19_covid_Recovered_global <- read_csv(time_series_19_covid_Recovered
 
 time_series_19_covid_Confirmed_usa <- read_csv(time_series_19_covid_Confirmed_usa_path)
 time_series_19_covid_Deaths_usa <- read_csv(time_series_19_covid_Deaths_usa_path)
-time_series_19_covid_Recovered_usa <- read_csv(time_series_19_covid_Recovered_usa_path)
+#time_series_19_covid_Recovered_usa <- read_csv(time_series_19_covid_Recovered_usa_path)
 
 csse_covid_19_daily_reports <- read_csv(csse_covid_19_daily_reports_path)
 
